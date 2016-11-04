@@ -9,7 +9,6 @@ class SampleController extends Controller
 {
     public function index($id)
     {
-        dd('haha');
         $samples = Sample::where('batch_id', $id)->get();
         return response()->json([
             'data' => $samples
@@ -22,6 +21,6 @@ class SampleController extends Controller
         return response()->json([
             'success' =>true,
             'data' => $sample
-        ])
+        ]);
     }
 }

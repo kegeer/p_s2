@@ -10,7 +10,7 @@ class BatchController extends Controller
 {
     public function index()
     {
-        $batches = Batch::all();
+        $batches = Batch::all()->orderBy('create_at', 'des');
         return response()->json([
             'success' => true,
             'data' => $batches

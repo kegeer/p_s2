@@ -22,9 +22,9 @@
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="m-b-30">
-                                    <router-link :to="{name: 'create.batch'}">
-                                        <button class="btn btn-success waves-effect waves-light">New Batch<i class="mdi mdi-plus-circle-outline"></i></button>
-                                    </router-link>
+                    <router-link :to="{name: 'create.batch'}">
+                        <button class="btn btn-success waves-effect waves-light">New Batch<i class="mdi mdi-plus-circle-outline"></i></button>
+                    </router-link>
 								</div>
 							</div>
 						</div>
@@ -90,6 +90,3 @@ export default {
     }
 }
 </script>
-
-<style lang="css">
-</style>

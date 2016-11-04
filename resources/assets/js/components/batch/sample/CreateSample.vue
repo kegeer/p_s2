@@ -154,15 +154,15 @@ export default {
                 .catch(error => {});
         },
         clearForm() {
-            'batch_id':null,
-            'client_id': null,
-            'ori_num': null,
-            'py_num': null,
-            'amount': null,
-            'sampling_time': null,
-            'split_time': null,
-            'split_type': null,
-            'due_time': null
+          this.batch_id = null,
+          this.client_id =  null,
+          this.ori_num =  null,
+          this.py_num =  null,
+          this.amount =  null,
+          this.sampling_time =  null,
+          this.split_time =  null,
+          this.split_type =  null,
+          this.due_time =  null
         }
     }
 }
