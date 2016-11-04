@@ -1,0 +1,22 @@
+//batches
+
+export const GET_ALL_BATCHES = 'batch/GET_ALL_BATCHES';
+export const UPDATE_BATCH_SUCCESS = 'batch/UPDATE_BATCH_SUCCESS';
+export const UPDATE_BATCH_FALIURE = 'batch/UPDATE_BATCH_FALIURE';
+
+export const GET_BATCH = 'batch/GET_BATCH';
+export const GET_BATCH_ERROR = 'batch/GET_BATCH_ERROR';
+export const CREATE_BATCH = 'batch/CREATE_BATCH';
+export const CREATE_BATCH_SUCCESS = 'batch/CREATE_BATCH_SUCCESS';
+export const CREATE_BATCH_FAILURE = 'batch/CREATE_BATCH_FAILURE';
+export const CLEAR_CREATE_BATCH_ERRORS = 'batch/CLEAR_CREATE_BATCH_ERRORS';
+
+//samples
+export const GET_ALL_SAMPLES = 'batch/GET_ALL_SAMPLES';
+export const UPDATE_SAMPLE_SUCCESS = 'batch/UPDATE_SAMPLE_SUCCESS';
+export const UPDATE_SAMPLE_FALIURE = 'batch/UPDATE_SAMPLE_FALIURE';
+
+export const CREATE_SAMPLE = 'batch/CREATE_SAMPLE';
+export const CREATE_SAMPLE_SUCCESS = 'batch/CREATE_SAMPLE_SUCCESS';
+export const CREATE_SAMPLE_FAILURE = 'batch/CREATE_SAMPLE_FAILURE';
+export const CLEAR_CREATE_SAMPLE_ERRORS = 'batch/CLEAR_CREATE_SAMPLE_ERRORS';
